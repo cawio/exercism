@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "hello-world",
+    "resistor-color",
+    "resistor-color-duo",
+    "resistor-color-trio",
+    "two-fer",
+    "leap",
+    "rna-transcription"
+  ]
+}
