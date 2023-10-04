@@ -1,13 +1,27 @@
 export class Matrix {
-  constructor() {
-    throw new Error('Remove this statement and implement this function')
+  private _rows: number[][];
+  private _columns: number[][];
+
+
+  constructor(input: string) {
+    this._rows = input.split('\n').map((row) => {
+      return row.split(' ').map((value) => {
+        return parseInt(value);
+      });
+    });
+
+    this._columns = this._rows[0].map((_, index) => {
+      return this._rows.map((row) => {
+        return row[index];
+      });
+    });
   }
 
-  get rows(): unknown {
-    throw new Error('Remove this statement and implement this function')
+  get rows(): number[][] {
+    return this._rows;
   }
 
-  get columns(): unknown {
-    throw new Error('Remove this statement and implement this function')
+  get columns(): number[][] {
+    return this._columns;
   }
 }
