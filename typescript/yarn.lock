@@ -1486,6 +1486,54 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@exercism/typescript-bob@workspace:bob":
+  version: 0.0.0-use.local
+  resolution: "@exercism/typescript-bob@workspace:bob"
+  dependencies:
+    "@exercism/babel-preset-typescript": ^0.4.0
+    "@exercism/eslint-config-typescript": ^0.5.0
+    "@types/jest": ^29.5.2
+    "@types/node": ~18.16.16
+    babel-jest: ^29.5.0
+    core-js: ~3.30.2
+    eslint: ^8.42.0
+    jest: ^29.5.0
+    typescript: ~5.0.4
+  languageName: unknown
+  linkType: soft
+
+"@exercism/typescript-darts@workspace:darts":
+  version: 0.0.0-use.local
+  resolution: "@exercism/typescript-darts@workspace:darts"
+  dependencies:
+    "@exercism/babel-preset-typescript": ^0.4.0
+    "@exercism/eslint-config-typescript": ^0.5.0
+    "@types/jest": ^29.5.2
+    "@types/node": ~18.16.16
+    babel-jest: ^29.5.0
+    core-js: ~3.30.2
+    eslint: ^8.42.0
+    jest: ^29.5.0
+    typescript: ~5.0.4
+  languageName: unknown
+  linkType: soft
+
+"@exercism/typescript-dnd-character@workspace:dnd-character":
+  version: 0.0.0-use.local
+  resolution: "@exercism/typescript-dnd-character@workspace:dnd-character"
+  dependencies:
+    "@exercism/babel-preset-typescript": ^0.4.0
+    "@exercism/eslint-config-typescript": ^0.5.0
+    "@types/jest": ^29.5.2
+    "@types/node": ~18.16.16
+    babel-jest: ^29.5.0
+    core-js: ~3.30.2
+    eslint: ^8.42.0
+    jest: ^29.5.0
+    typescript: ~5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@exercism/typescript-hello-world@workspace:hello-world":
   version: 0.0.0-use.local
   resolution: "@exercism/typescript-hello-world@workspace:hello-world"
@@ -1506,6 +1554,22 @@ __metadata:
 "@exercism/typescript-leap@workspace:leap":
   version: 0.0.0-use.local
   resolution: "@exercism/typescript-leap@workspace:leap"
+  dependencies:
+    "@exercism/babel-preset-typescript": ^0.4.0
+    "@exercism/eslint-config-typescript": ^0.5.0
+    "@types/jest": ^29.5.2
+    "@types/node": ~18.16.16
+    babel-jest: ^29.5.0
+    core-js: ~3.30.2
+    eslint: ^8.42.0
+    jest: ^29.5.0
+    typescript: ~5.0.4
+  languageName: unknown
+  linkType: soft
+
+"@exercism/typescript-pangram@workspace:pangram":
+  version: 0.0.0-use.local
+  resolution: "@exercism/typescript-pangram@workspace:pangram"
   dependencies:
     "@exercism/babel-preset-typescript": ^0.4.0
     "@exercism/eslint-config-typescript": ^0.5.0
@@ -1571,6 +1635,22 @@ __metadata:
 "@exercism/typescript-rna-transcription@workspace:rna-transcription":
   version: 0.0.0-use.local
   resolution: "@exercism/typescript-rna-transcription@workspace:rna-transcription"
+  dependencies:
+    "@exercism/babel-preset-typescript": ^0.4.0
+    "@exercism/eslint-config-typescript": ^0.5.0
+    "@types/jest": ^29.5.2
+    "@types/node": ~18.16.16
+    babel-jest: ^29.5.0
+    core-js: ~3.30.2
+    eslint: ^8.42.0
+    jest: ^29.5.0
+    typescript: ~5.0.4
+  languageName: unknown
+  linkType: soft
+
+"@exercism/typescript-space-age@workspace:space-age":
+  version: 0.0.0-use.local
+  resolution: "@exercism/typescript-space-age@workspace:space-age"
   dependencies:
     "@exercism/babel-preset-typescript": ^0.4.0
     "@exercism/eslint-config-typescript": ^0.5.0
